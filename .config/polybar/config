@@ -1,0 +1,41 @@
+[bar/top]
+bottom=false
+height=20
+width=100%
+
+background = #1f1f1f
+foreground = #eee
+
+modules-left = i3
+modules-right =  date
+
+font-0 = Hack:size=10;3
+font-1= Font Awesome 5 Free:style=Regular:size=10;3
+font-2 = Font Awesome 5 Free:style=Solid:size=10;3
+font-3 = Font Awesome 5 Brands:size=10;3
+
+
+
+
+[module/i3]
+type= internal/i3
+format= <label-state> <label-mode>
+
+label-focused = %name%
+label-focused-background=#2f2f2f
+label-focused-padding=2.7
+
+label-unfocused = %name%
+label-unfocused-padding=2.5
+
+label-separator= |
+label-separator-padding = 0
+label-separator-foreground = #ffbf00
+
+
+[module/date]
+type=internal/date
+interval=1.í
+date=%Y-%m-%d %H:%M:%S
+
+;vim:ft=dosini

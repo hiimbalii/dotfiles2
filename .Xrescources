@@ -1,0 +1,51 @@
+! cyber by tudurom
+
+! special
+*.foreground:   #e0f2ec
+*.background:   #11292e
+*.cursorColor:  #e0f2ec
+
+! black
+*.color0:       #0e1f22
+*.color8:       #1c4b4e
+
+! red
+*.color1:       #628dbb
+*.color9:       #2a5c92
+
+! green
+*.color2:       #840b94
+*.color10:      #542a71
+
+! yellow
+*.color3:       #E02D46
+*.color11:      #9b081d
+
+! blue
+!*.color4:       #F79042
+!*.color12:      #ff7744
+*.color4:	#4b6476
+*.color12:	#273f51
+
+! magenta (or orange)
+!*.color5:       #4b6476
+!*.color13:      #273f51
+*.color5:	#f79042
+*.color13:	#ff7744
+
+! cyan
+*.color6:       #2eab8a
+*.color14:      #147e62
+
+! white
+*.color7:       #e0f2ec
+*.color15:      #a7d2cd
+
+URxvt.font: xft:monospace:size=10
+
+URxvt.boldFont:
+URxvt.scrollBar: false
+
+Xcursor.theme: xcursor-neutral
+Xcursor.size: 20
+! vim: set ft=xdefaults :

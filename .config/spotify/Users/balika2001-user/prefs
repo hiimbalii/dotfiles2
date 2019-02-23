@@ -1,0 +1,5 @@
+audio.crossfade_v2=true
+audio.sync_bitrate_enumeration=4
+audio.play_bitrate_enumeration=4
+gaia.known_zeroconf="{\"c5d61f6ff3e8ef3371714920be7fff0f6d04b1c7\":{\"known\":false,\"popularity\":2,\"prio\":\"connect\",\"shown\":0}}"
+app.player.volume=42597
